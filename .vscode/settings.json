@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "blogx3-local",
+            "database": "${workspaceFolder:proyect_x3}/db.sqlite3"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "69.10.61.141",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "stomas",
+            "username": "root",
+            "password": "_ipst2020_",
+            "database": "test"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
